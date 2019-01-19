@@ -1,0 +1,34 @@
+
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+header{
+    background-color:#ffffff;
+    border-color: #cccccc
+}
+footer{
+    background-color:#666666;
+    border-top: 8px solid #4aaaa5;
+}
+body{
+    background-color:#ffffff;
+    border-color: #dddddd
+}
+
+
+
+
+
+
+
+/*Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+body{
+    background-image: url(/assets/images/folk-pattern.png) repeat;
+}
