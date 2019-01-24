@@ -20,7 +20,9 @@ body{
     width: 930px;
     margin: 10px auto;
 }
-
+a:hover{ 
+    color: teal; 
+}
 
 /* ----- Profile/Index page formatting --------------------------- */
 .profile-content{
