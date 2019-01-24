@@ -39,11 +39,12 @@ body{
 .profile-pic{
     height: 150px;
     width: 150px;
-
+    float: left;
+    margin-right: 20px;
 }
-.profile-text{
-
-}
+/* .profile-text{
+    float: left;
+} */
 
 /* -----  Contact Form formatting and Contact page formatting ----------*/
 form{
@@ -84,6 +85,7 @@ form{
 /* --------- Portfolio formatting ------------------- */
 .portfolio-section{
     width: 960px;
+    height: 500px;
     background: #ffffff;
     border-color: #dddddd;
     margin: 75px auto 150px auto;
@@ -94,6 +96,39 @@ img{
     height: 150px;
     margin: 50px, 50px;
 }
+.float{
+    float: left;
+    margin: 30px 20px 0px 20px;
+}
+.absolute{
+    position: absolute;
+    bottom: 315px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    background-color:#4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    font-style: bold;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.absolute2{
+    position: absolute;
+    bottom: 125px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    background-color:#4aaaa5;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+    font-style: bold;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
 /* ----- Header/Navigation Bar formatting -----------*/
 .name{
     background-color:#4aaaa5;
