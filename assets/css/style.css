@@ -44,9 +44,6 @@ a:hover{
     float: left;
     margin-right: 20px;
 }
-/* .profile-text{
-    float: left;
-} */
 
 /* -----  Contact Form formatting and Contact page formatting ----------*/
 form{
@@ -59,10 +56,12 @@ form{
 .formspec1{
     width: 930px;
     height: 25px;
+    color: gray;
 }
 .formspec2{
     width: 930px;
     height: 200px;
+    color: gray;
 }
 .formsubmit{
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -101,10 +100,12 @@ img{
 .float{
     float: left;
     margin: 30px 20px 0px 20px;
+    z-index: 1;
 }
 .absolute{
     position: absolute;
     bottom: 315px;
+    z-index: 2;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #ffffff;
@@ -119,6 +120,7 @@ img{
 .absolute2{
     position: absolute;
     bottom: 125px;
+    z-index: 2;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #ffffff;
