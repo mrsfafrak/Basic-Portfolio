@@ -22,6 +22,7 @@ body{
 }
 a:hover{ 
     color: #4aaaa5; 
+    text-decoration: underline;
 }
 
 /* ----- Profile/Index page formatting --------------------------- */
@@ -97,12 +98,10 @@ img{
     width: 200px;
     height: 150px;
     margin: 50px, 50px;
-    /* z-index: 2; */
 }
 .float{
     float: left;
     margin: 30px 20px;
-    /* z-index: 2; */
 }
 .absolute{
     position: absolute;
@@ -115,7 +114,7 @@ img{
     text-decoration: none;
     font-style: bold;
     font-size: 18px;
-    /* z-index: 5; */
+    margin-top: 75px;
 }
 
 /* ----- Header/Navigation Bar formatting -----------*/
