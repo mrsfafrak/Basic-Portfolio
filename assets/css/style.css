@@ -34,10 +34,9 @@ a:hover{
 .profile-section{
     width: 960px;
     background: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
     padding: 1px;
     margin: 75px auto 150px auto;
-    border-color: #dddddd;
 }
 .profile-pic{
     height: 150px;
@@ -79,17 +78,16 @@ form{
 .contact-section{
     width: 960px;
     background: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
     margin: 75px auto 150px auto;
     padding: 1px;
-    border-color: #dddddd;
 }
 /* --------- Portfolio formatting ------------------- */
 .portfolio-section{
     width: 960px;
     height: 600px;
     background: #ffffff;
-    border-color: #dddddd;
+    border: 1px solid #dddddd;
     margin: 75px auto 150px auto;
     padding: 1px;
     overflow: auto;
